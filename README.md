@@ -1,2 +1,2 @@
 # image-search
-a google image search API
+an image search API for imgur

@@ -1,0 +1,13 @@
+{
+  "name": "image-search",
+  "version": "0.0.1",
+  "description": "an image search API",
+  "main": "server.js",
+  "repository": "https://github.com/xevrem/image-search.git",
+  "author": "erika jonell <erika.jonell@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.16.2",
+    "express": "^4.16.2"
+  }
+}
