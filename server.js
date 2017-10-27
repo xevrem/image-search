@@ -69,7 +69,7 @@ app.get('/api/imagesearch/:query', (req, res) => {
             return {
                 url: img.link,
                 snippet: img.description || item.title,
-                thumbnail: img.link,
+                thumbnail: img.link.slice(0,-4)+'t'+img.link.slice(-4),
                 context: item.link
             }
         });
